@@ -1,0 +1,236 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* NAV */
+
+.nav_titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: hsl(214, 100%, 63%);
+    font-weight: 600;
+    transition: color .5;
+}
+
+
+
+
+/* PORTADA */
+
+section.resume-section {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    max-width: 75rem;
+    margin-top: 20px;
+}
+
+section.resume-section .resume-section-content {
+    width: 100%;
+}
+
+.titulo_portada {
+    font-size: 4rem;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+.datos_per_portada {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+}
+
+.email {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.email:hover {
+    color: rgb(66, 148, 255);
+    border-top: 1px solid hsl(214, 100%, 63%);
+    border-bottom: 1px solid hsl(214, 100%, 63%);
+    transition: all .5s;
+}
+
+
+.iconos-redes .icono-red-social {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: hsl(214, 100%, 63%);
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.iconos-redes .icono-red-social:hover {
+    background-color: #fff;
+    color: hsl(214, 100%, 63%);
+    border: 1px solid hsl(214, 100%, 63%);
+}
+
+.cont_redes {
+    margin-bottom: 30px;
+}
+
+
+
+/* CERTIFICACIONES */
+
+.icono_certificaciones {
+    color: hsl(214, 100%, 63%);
+}
+
+.lista-certificaciones {
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+/* HABILIDADES */
+.iconos-habilidades .icono-habilidad {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: hsl(214, 100%, 63%);
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* PROYECTOS */
+.card {
+    margin-top: 20px;
+    transition: all .25s;  
+}
+
+.card:hover {
+    transform: translateY(-15px); 
+}
+
+.card-title {
+    color: hsl(214, 100%, 63%);
+}
+
+.card-link {
+    text-decoration: none; 
+}
+
+.card-link:hover {
+    border-top: 1px solid hsl(214, 100%, 63%);
+    border-bottom: 1px solid hsl(214, 100%, 63%);
+}
+
+
+/* ESTILOS GENERALES*/
+
+.secciones {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 2rem auto;
+}
+
+.titulo_seccion {
+    border-top: 2px solid hsl(214, 100%, 63%);
+    border-bottom: 2px solid hsl(214, 100%, 63%);
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.item_seccion_titulo{
+    color: hsl(214, 100%, 63%);
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.item_seccion_subtitulo {
+    font-weight: 600;
+}
+
+
+.sticky {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: hsl(214, 100%, 63%);
+    color: #fff;
+    border-radius: 100%;
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.sticky:hover {
+    background-color: white;
+    color: hsl(214, 100%, 63%);
+    border: 1px solid hsl(214, 100%, 63%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+
+[
+    {
+        "imagen":"assets/img/proyecto1.jpg",
+        "nombre":"Proyecto", 
+        "descripcion":"Some quick example text to build on the card title and make up."
+    },
+
+    {
+        "imagen":"assets/img/proyecto1.jpg",
+        "nombre":"Proyecto", 
+        "descripcion":"Some quick example text to build on the card title and make up."
+    },
+
+    {
+        "imagen":"assets/img/proyecto1.jpg",
+        "nombre":"Proyecto", 
+        "descripcion":"Some quick example text to build on the card title and make up."
+    },
+
+    {
+        "imagen":"assets/img/proyecto1.jpg",
+        "nombre":"Proyecto", 
+        "descripcion":"Some quick example text to build on the card title and make up."
+    },
+
+    {
+        "imagen":"assets/img/proyecto1.jpg",
+        "nombre":"Proyecto", 
+        "descripcion":"Some quick example text to build on the card title and make up."
+    },
+
+    {
+        "imagen":"assets/img/proyecto1.jpg",
+        "nombre":"Proyecto", 
+        "descripcion":"Some quick example text to build on the card title and make up."
+    }
+
+]
