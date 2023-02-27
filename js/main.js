@@ -13,7 +13,7 @@ proyectosJson();
 function mostrarProyectos(proyectos){
     for (let i = 0; i < proyectos.length; i++) {
     generadorCards += `
-    <div class="col-sm-12 col-md-6 col-lg-4">
+    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center">
     <div class="card" style="width: 18rem">
         <div class="card-body">
             <img src="${proyectos[i].imagen}" alt="" class="img-fluid" />
@@ -28,9 +28,6 @@ function mostrarProyectos(proyectos){
     document.getElementById("proyectos").innerHTML = generadorCards;
     }
 
-
-
-    //  d-flex justify-content-center
 
     
     
