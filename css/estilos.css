@@ -5,7 +5,6 @@
 }
 
 body {
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Raleway', sans-serif;
 }
 
@@ -13,10 +12,16 @@ body {
 
 /* NAV */
 
+.navbar {
+    border-bottom: 1px solid hsl(210, 5%, 77%);
+}
+
 .nav_titulo {
     font-size: 1.5rem;
     font-weight: bold;
     padding-left: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 .navbar-collapse {
@@ -39,6 +44,10 @@ body {
 
 
 /* PORTADA */
+
+.img_portada {
+    margin-top: 63px;
+}
 
 section.resume-section {
     display: flex;
@@ -88,9 +97,9 @@ section.resume-section .resume-section-content {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 2.5rem;
-    width: 2.5rem;
-    background-color: hsl(214, 100%, 63%);
+    height: 3rem;
+    width: 3rem;
+    background-color: hsl(210, 9%, 31%);
     color: #fff;
     border-radius: 100%;
     font-size: 1.5rem;
@@ -99,9 +108,9 @@ section.resume-section .resume-section-content {
 }
 
 .iconos-redes .icono-red-social:hover {
-    background-color: #fff;
-    color: hsl(214, 100%, 63%);
-    border: 1px solid hsl(214, 100%, 63%);
+    background-color: hsl(214, 100%, 63%);
+    color: white;
+    transition: all .25s;
 }
 
 .cont_redes {
@@ -129,15 +138,13 @@ section.resume-section .resume-section-content {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 2.5rem;
-    width: 2.5rem;
-    background-color: hsl(214, 100%, 63%);
-    color: #fff;
+    color: hsl(208, 7%, 46%);
     border-radius: 100%;
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
 }
+
 
 
 /* PROYECTOS */
@@ -151,16 +158,24 @@ section.resume-section .resume-section-content {
 }
 
 .card-title {
+    padding: 5px;
     color: hsl(214, 100%, 63%);
 }
 
 .card-link {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(214, 100%, 63%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    padding: 3px 3px;
     text-decoration: none; 
 }
 
 .card-link:hover {
-    border-top: 1px solid hsl(214, 100%, 63%);
-    border-bottom: 1px solid hsl(214, 100%, 63%);
+    background-color: hsl(208, 7%, 46%);
+    color: hsl(0, 0%, 100%);
+    transition: all .25s;
 }
 
 
@@ -192,6 +207,7 @@ section.resume-section .resume-section-content {
     font-weight: bold;
 }
 
+
 .item_seccion_subtitulo {
     font-weight: 600;
 }
@@ -201,20 +217,18 @@ section.resume-section .resume-section-content {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 2.5rem;
-    width: 2.5rem;
-    background-color: hsl(214, 100%, 63%);
-    color: #fff;
+    background-color: white;
+    color: hsl(214, 100%, 63%);
     border-radius: 100%;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
 .sticky:hover {
     background-color: white;
-    color: hsl(214, 100%, 63%);
-    border: 1px solid hsl(214, 100%, 63%);
+    color: hsl(208, 7%, 46%);
+    transition: all .25s;
 }
 
 

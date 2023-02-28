@@ -14,9 +14,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" /> -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- CSS -->
@@ -28,13 +25,17 @@
 <body>
 
     <!-- Encabezado -->
-    <header>
-        <nav class="navbar navbar-expand-lg" id="inicio">
+    <header id="inicio">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
             <div class="container-fluid">
                 <!-- Logo -->
                 <span class="navbar-brand">
-                    <img src="assets/img/columns-gap.svg" alt="Logo">
-                    <span class="nav_titulo">Fernandez Sean</span>
+                    <a href="#inicio" class="nav_titulo">
+                        <img src="assets/img/columns-gap.svg" alt="Logo">
+                        <span>Fernandez Sean</span>
+                    </a>
+                    <!-- <img src="assets/img/columns-gap.svg" alt="Logo">
+                    <span class="nav_titulo">Fernandez Sean</span> -->
                 </span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,12 +63,12 @@
             </div>
         </nav>
 
-        <div class="container-fluid">
+        <!-- <div class="container-fluid">
             <hr class="mt-0"/>
-        </div>
+        </div> -->
 
         <div>
-            <img src="assets/img/sean_fernandez.png" alt="imagen-portada" class="img-fluid" />
+            <img src="assets/img/sean_fernandez.png" alt="imagen-portada" class="img-fluid img_portada"/>
         </div>
 
         <div class="container">
@@ -102,8 +103,8 @@
 
     <main>
         <!-- Experiencia -->
-    <section class="secciones">
-        <div class="container" id="experiencia">
+    <section class="secciones" id="experiencia">
+        <div class="container">
             <div class="row">
                 <div class="col">
                     <div class="col-12">
@@ -147,8 +148,8 @@
         </div>
 
         <!-- Educacion -->
-    <section class="secciones">
-        <div class="container" id="educacion">
+    <section class="secciones" id="educacion">
+        <div class="container">
             <div class="row">
                 <div class="col">
                     <div class="col-12">
@@ -185,10 +186,10 @@
         </div>
 
         <!-- Certificaciones -->
-    <section class="secciones">
-        <div class="container" id="certificaciones">
+    <section class="secciones" id="certificaciones">
+        <div class="container">
             <div class="row">
-                <div class="col-12 col-xs-12">
+                <div class="col-12">
                     <h2 class="titulo_seccion">CERTIFICACIONES</h2>
                 </div>
             </div>
@@ -244,22 +245,22 @@
         </div>
 
         <!-- Habilidades -->
-    <section class="secciones">
-        <div class="container" id="habilidades">
+    <section class="secciones" id="habilidades">
+        <div class="container">
             <div class="row">
                 <div class="col">
                     <div class="col-12">
                         <h2 class="titulo_seccion">HABILIDADES</h2>
-                        <h3 class="item_seccion_titulo">Lenguajes y herramientas de programación</h3>
+                        <h3 class="item_seccion_titulo item_seccion_titulo--habilidades">Lenguajes y herramientas de programación</h3>
                     </div>
                     
                     <div class="iconos-habilidades mt-4">
                         <li class="icono-habilidad"><i class="fab fa-html5"></i></li>
                         <li class="icono-habilidad"><i class="fab fa-css3-alt"></i></li>
-                        <li class="icono-habilidad">
-                            <i class="fa-brands fa-bootstrap"></i>
-                        </li>
+                        <li class="icono-habilidad"><i class="fa-brands fa-bootstrap"></i></li>
                         <li class="icono-habilidad"><i class="fab fa-js-square"></i></li>
+                        <li class="icono-habilidad"><i class="fab fa-react"></i></li>
+                        <li class="icono-habilidad"><i class="fab fa-node-js"></i></li>
                     </div>
 
                     <div class="mb-3">Flujo de trabajo</div>
@@ -291,7 +292,7 @@
         </div>
 
         <!-- Proyectos -->
-    <section class="secciones">
+    <section class="secciones" id="proyectos">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -299,7 +300,7 @@
                 </div>
             </div>
             
-            <div class="row" id="proyectos">
+            <div class="row" id="cardsProyecto">
                 <!-- <div class="col-sm-12 col-md-6 col-lg-4 cuerpo_tarjeta">
                     <div class="card" style="width: 18rem">
                         <div class="card-body">
@@ -348,9 +349,6 @@
         </div>
     </footer>
 
-    <div class="container-fluid mt-5 mb-5 position-sticky bottom-0 d-flex justify-content-end">
-        <a href="#inicio" class="sticky"><i class="fa-solid fa-circle-up"></i></a>
-    </div>
     
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -358,6 +356,16 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <!-- JavaScript -->
     <script src="js/main.js"></script>
+
+    <script>
+        const navLinks = document.querySelectorAll('.nav-item')
+        const menuToggle = document.getElementById('navbarNav')
+        const bsCollapse = new bootstrap.Collapse(menuToggle)
+        navLinks.forEach((l) => {
+        l.addEventListener('click', () => { bsCollapse.toggle() })
+    })
+    </script>
+    
     
 </body>
 
