@@ -20,7 +20,7 @@ function mostrarProyectos(proyectos){
             <h5 class="card-title">${proyectos[i].nombre}</h5>
             <h6 class="card-subtitle mb-2 text-muted"></h6>
             <p class="card-text">${proyectos[i].descripcion}</p>
-            <a href="" class="card-link">Ver Proyecto</a>
+            <a href="#!" class="card-link">Ver Proyecto</a>
         </div>
     </div>
 </div>`;

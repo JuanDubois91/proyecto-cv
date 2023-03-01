@@ -87,8 +87,6 @@ section.resume-section .resume-section-content {
 
 .email:hover {
     color: rgb(66, 148, 255);
-    border-top: 1px solid hsl(214, 100%, 63%);
-    border-bottom: 1px solid hsl(214, 100%, 63%);
     transition: all .5s;
 }
 
